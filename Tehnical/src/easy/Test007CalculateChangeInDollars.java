@@ -27,7 +27,7 @@ public class Test007CalculateChangeInDollars {
 		System.out.println("dime " + dime);
 		System.out.println("nickel " + nickel);
 		System.out.println("penny " + penny);
-		System.out.println("Amounty of money you have: " + suma);
+		System.out.println("Amounty of  money you have: " + suma);
 		System.out.println("Yount of money you need to pay: " + amountDue);
 
 		System.out.println();
