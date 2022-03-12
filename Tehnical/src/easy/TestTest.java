@@ -6,6 +6,11 @@ public class TestTest {
 
 		//Testing random stuff before I write it into proper class
 		
+		//very easy 5
+		//easy 10
+		//medium 20
+		
+		
 		int pero = 7;
 		String ime = "Zoki";
 		
