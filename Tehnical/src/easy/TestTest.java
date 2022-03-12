@@ -2,22 +2,33 @@ package easy;
 
 public class TestTest {
 
-	public static void main(String[] args) {
+	public static String swapFirstAndLast(String s) {
 
-		//Testing random stuff before I write it into proper class
-		
-		//very easy 5
-		//easy 10
-		//medium 20
-		
-		
-		int pero = 7;
-		String ime = "Zoki";
-		
-		String marko = String.format("My name is %s and I am %d years old", ime, pero);
-		System.out.println(marko);
-		
+		int stringLength = s.length();
+		String startOfTheString = s.substring(0, 1);
+		String endOfTheString = s.substring(stringLength - 1);
+
+		if (s.length() < 2) {
+			return s;
+		} else if (startOfTheString.equals(endOfTheString)) {
+			return "Two's a pair.";
+		} else {
+			char[] ch = s.toCharArray();
+
+			char temp = ch[0];
+			ch[0] = ch[ch.length - 1];
+			ch[ch.length - 1] = temp;
+
+			return String.valueOf(ch);
+
+		}
 
 	}
 
+	public static void main(String args[]) {
+
+		String s = "GeeksForGeeks";
+
+		System.out.println(swapFirstAndLast(s));
+	}
 }
