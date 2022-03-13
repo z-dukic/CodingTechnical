@@ -2,33 +2,26 @@ package easy;
 
 public class TestTest {
 
-	public static String swapFirstAndLast(String s) {
+	public static boolean checkPerfect(int num) {
 
-		int stringLength = s.length();
-		String startOfTheString = s.substring(0, 1);
-		String endOfTheString = s.substring(stringLength - 1);
+		int i, sum = 0;
 
-		if (s.length() < 2) {
-			return s;
-		} else if (startOfTheString.equals(endOfTheString)) {
-			return "Two's a pair.";
-		} else {
-			char[] ch = s.toCharArray();
-
-			char temp = ch[0];
-			ch[0] = ch[ch.length - 1];
-			ch[ch.length - 1] = temp;
-
-			return String.valueOf(ch);
-
+		for (i = 1; i < num; i++) {
+			if (num % i == 0) {
+				sum = sum + i;
+			}
 		}
 
+		if (sum == num) {
+			System.out.println(num + " is perfect");
+			return true;
+		} else {
+			System.out.println(num + " is not perfect");
+			return false;
+		}
 	}
 
 	public static void main(String args[]) {
-
-		String s = "GeeksForGeeks";
-
-		System.out.println(swapFirstAndLast(s));
+		System.out.println(checkPerfect(496));
 	}
 }
