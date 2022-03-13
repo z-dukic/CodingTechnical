@@ -11,5 +11,5 @@ public class Test037ConvertHoursAndMinutesToSeconds {
 		return (hours * 60 * 60) + (minutes * 60);
 		 
 	  }
-
+ 
 }

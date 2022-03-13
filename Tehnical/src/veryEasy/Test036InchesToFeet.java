@@ -7,7 +7,7 @@ public class Test036InchesToFeet {
 
 	public static int convert(int inches) {
 
-		return inches * 12;
+		return inches / 12;
 	}
 
 	public static void main(String[] args) {
