@@ -2,26 +2,19 @@ package easy;
 
 public class TestTest {
 
-	public static boolean checkPerfect(int num) {
+	public static boolean getXO(String str) {
 
-		int i, sum = 0;
-
-		for (i = 1; i < num; i++) {
-			if (num % i == 0) {
-				sum = sum + i;
+		int xCount = 0;
+		int oCount = 0;
+		for (int i = 0; i < str.length(); i++) {
+			if (str.charAt(i) == 'x' || str.charAt(i) == 'X') {
+				xCount++;
+			} else if (str.charAt(i) == 'o' || str.charAt(i) == 'O') {
+				oCount++;
 			}
 		}
+		return xCount == oCount;
 
-		if (sum == num) {
-			System.out.println(num + " is perfect");
-			return true;
-		} else {
-			System.out.println(num + " is not perfect");
-			return false;
-		}
 	}
 
-	public static void main(String args[]) {
-		System.out.println(checkPerfect(496));
-	}
 }
