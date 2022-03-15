@@ -1,6 +1,6 @@
 package medium;
 
-public class Test023FixBasicCalculator {
+public class Test015FixBasicCalculator {
 
 	// Mubashir created a function that takes two numbers a and b and an operator o.
 	// His function should return the result of the corresponding mathematical

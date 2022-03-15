@@ -1,6 +1,6 @@
 package medium;
 
-public class Test021StringEndingMarchesSecondString {
+public class Test013StringEndingMarchesSecondString {
 
 	public static boolean checkEnding(String str1, String str2) {
 		

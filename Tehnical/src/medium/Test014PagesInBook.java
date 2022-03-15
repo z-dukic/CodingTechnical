@@ -1,6 +1,6 @@
 package medium;
 
-public class Test022PagesInBook {
+public class Test014PagesInBook {
 
 	// Suppose that you add all of the page numbers in a book. If the total is 21,
 	// the book could only have 6 pages because 1 + 2 + 3 + 4 + 5 + 6 = 21. If I had

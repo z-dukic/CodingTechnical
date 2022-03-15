@@ -1,6 +1,6 @@
 package medium;
 
-public class Test020PythagoreanTriplet {
+public class Test012PythagoreanTriplet {
 
 	public static boolean isTriplet(int a, int b, int c) {
 
