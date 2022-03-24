@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 encoding//src/easy/Test005DoubleLetters.java=UTF-8
 encoding//src/easy/Test020BoxVolume.java=UTF-8
+encoding//src/easy/Test024HowMuchIsTrue.java=UTF-8
 encoding//src/hard/Test001RemoveWordUsingRemoveWordMethod.java=UTF-8
 encoding//src/medium/Test005AddingNumbers.java=UTF-8
 encoding//src/medium/Test008Switcharoo.java=UTF-8
@@ -11,3 +12,4 @@ encoding//src/medium/Test016FindTheMissingNumber.java=UTF-8
 encoding//src/medium/Test017ArrayOfMultiples.java=UTF-8
 encoding//src/medium/Test018HowManyVowels.java=UTF-8
 encoding//src/medium/Test021PerfectSquarePatch.java=UTF-8
+encoding//src/medium/Test023.java=UTF-8
